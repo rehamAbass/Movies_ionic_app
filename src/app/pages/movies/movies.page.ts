@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoadingController } from '@ionic/angular';
 import { MovieService } from 'src/app/services/movie.service';
 
 @Component({
@@ -8,13 +9,25 @@ import { MovieService } from 'src/app/services/movie.service';
 })
 export class MoviesPage implements OnInit {
 
-  constructor( private movieService: MovieService) { }
-
+  movies =[];
+  currentPage =1;
+  //---------------------------
+  constructor( private movieService: MovieService , private loadingCtrl: LoadingController) { }
+  //---------------------------
   ngOnInit(): void {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
-    this.movieService.getTopRatedMovies().subscribe( res =>{
-        console.log(res);
-    })
+    this.loadMovies();
   }
+  //---------------------------
+  async loadMovies(){
+    const loading = await this.loadingCtrl.create({
+      message: 'Loading',
+      spinner: 'bubbles',
+    });
+    await loading.present();
+    this.movieService.getTopRatedMovies(this.currentPage).subscribe((res) =>{
+      loading.dismiss();
+      console.log(res);
+    });
+  }
+  //---------------------------
 }

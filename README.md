@@ -6,8 +6,8 @@ my first ionic App :))
 
 
 some notes : 
-# devloped it using visual code , but the target it is to be run on my phone, so I used the cacpictor through android studio, 
-# in order to make it run on your phone , U must install the VC & android studio & follow my steps :
+I have devloped it using visual code , but the target it is to be run on my phone, so I used the cacpictor through android studio, 
+in order to make it run on your phone , U must install the VC & android studio & follow my steps :
 
 ## my steps : 
 1. install node (last version I think 18 until today)
@@ -25,7 +25,7 @@ some notes :
  5. VC must stay open will running ..
  6. OPen your phone => go to Sittings => Developer options => Wireless debugging => Pair using QR Code  || another option using TypeC cable
  
- 7. ad3ele babe. ~ Reham
+ 7. on android => press build (פטיש ) => choose phone device  virtual/ physical => turn on the device => run the device => run the aoo (green arrow) 
  
  on web it must look like this :
  

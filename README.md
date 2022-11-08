@@ -29,6 +29,7 @@ some notes :
  
  on web it must look like this :
  
+<img width="932" alt="xx" src="https://user-images.githubusercontent.com/42107725/200665654-35e8e6bd-580e-4451-bcee-1b4079145777.png">
 
 ###################################################################################################################
 

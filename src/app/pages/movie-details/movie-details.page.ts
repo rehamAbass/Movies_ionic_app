@@ -25,7 +25,7 @@ export class MovieDetailsPage implements OnInit {
   }
 
   openHomepage(){
-window.open(this.movie.HomePage);
+window.open(this.movie.homepage);
   }
 
 }

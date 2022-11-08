@@ -35,5 +35,5 @@ in order to make it run on your phone , U must install the VC & android studio &
 
 on my phone it looks like (took screenshots):
 
-
-  
+*****************************************************************************************************************
+  https://www.youtube.com/watch?v=y_vwf15eADs&t=1434s

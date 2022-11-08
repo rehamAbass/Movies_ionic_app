@@ -27,11 +27,8 @@ some notes :
  
  7. ad3ele babe. ~ Reham
  
- on web it must look like this : 
- ![image](https://user-images.githubusercontent.com/42107725/200665150-ae33df3b-2e16-44ac-a332-5ece57f46db8.png)
-
-######################################################################################################################
-![image](https://user-images.githubusercontent.com/42107725/200665400-825ce4ae-0267-4b64-b802-93b5e49adab6.png)
+ on web it must look like this :
+ 
 
 ###################################################################################################################
 

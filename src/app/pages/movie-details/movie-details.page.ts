@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MovieService } from '../../services/movie.service';
 import { environment } from '../../../environments/environment';
+import { HomePage } from '../../home/home.page';
 
 @Component({
   selector: 'app-movie-details',
@@ -21,6 +22,10 @@ export class MovieDetailsPage implements OnInit {
       console.log('res = ',res);
       this.movie = res;
     });
+  }
+
+  openHomepage(){
+window.open(this.movie.HomePage);
   }
 
 }

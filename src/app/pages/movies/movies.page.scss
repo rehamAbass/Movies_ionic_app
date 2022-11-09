@@ -1,30 +1,31 @@
 
 ion-avatar {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   // padding: 8px;
   // transform: scale(0.95);
 }
 
 ion-content{
-  transform: scale(0.9);
+  transform: scale(0.92);
 }
 ion-item{
   margin-left:10px;
 }
 
 ion-title{
-  color: rgb(255,255,250);
+  color: rgb(255,255,255);
 //  background-color: rgb(235,20,190);
 // color : rgb(225,30,180);
 }
-ion-toolbar{
-background-color: rgb(255,0,160);
-  
+ion-header{
+background-color: rgb(245,0,140);
 }
 
 .titleMovie{
 font-family: 'Caveat', cursive;
   font-size: xx-large;
-  color: rgb(20,40,200);
+  color: rgb(0,0,150);
+  font-wight: 800;
+  transform: scale(1.3);
 }

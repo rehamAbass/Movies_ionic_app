@@ -12,7 +12,9 @@
       <img [src] ="imageBaseUrl +'/w92' + item.poster_path "/>
     </ion-avatar>
     <ion-label>
+       <ion-title>
       {{item.title}}
+          <ion-title/>
       <p>{{item.release_date | date:'y'}}</p>
     </ion-label>
     <ion-badge slot="end"> {{item.vote_average}} </ion-badge>

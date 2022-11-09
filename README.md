@@ -38,7 +38,7 @@ on my phone it looks :
 
 
 **********************************************************************************************
-TUTURIAL : 
+TUTORIAL : 
 
   https://www.youtube.com/watch?v=y_vwf15eADs&t=1434s
   
